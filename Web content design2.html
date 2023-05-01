@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+ box-sizing: border-box;
+}
+.menu {
+ float: left;
+ width: 20%;
+}
+.menuitem {
+ padding: 8px;
+ margin-top: 7px;
+ border-bottom: 1px solid #f1f1f1;
+}
+.main {
+ float: left;
+ width: 60%;
+ padding: 0 20px;
+ overflow: hidden;
+}
+.right {
+ background-color: red;
+ float: left;
+ width: 20%;
+ padding: 10px 15px;
+ margin-top: 7px;
+}
+@media only screen and (max-width:800px) {
+ /* For tablets: */
+ .main {
+ width: 80%;
+ padding: 0;
+ }
+ .right {
+ width: 100%;
+ }
+}
+@media only screen and (max-width:500px) {
+ /* For mobile phones: */
+ .menu, .main, .right {
+ width: 100%;
+ }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+<div style="background-color:#ff0000;padding:15px;">
+ <h1>Unicaf University</h1>
+</div>
+<div style="overflow:auto">
+ <div class="menu">
+ <div class="menuitem">About US</div>
+ <div class="menuitem">Scholarships</div>
+ <div class="menuitem">University Partners</div>
+ <div class="menuitem">Unicaf University</div>
+ </div>
+ <div class="main">
+ <h2>About US</h2>
+ <p>Unicaf University is a Pan African independent, recognised university, combining the best elements of international education, offering high quality internationally
+recognised qualifications.</p>
+ <img src="unicaf image.jpg" style="width:100%">
+ </div>
+ <div class="right">
+ <h2>Campuses and Learning Centers?</h2>
+ <p>Zambia|Uganda | Malawi.</p>
+ <h2>professional Training Division</h2>
+ <p>The Professional Development Division of Unicaf University offers a range of short courses which lead to a Certificate of Completion from the University. These
+courses are offered online, under open enrollment, and no application is needed.</p>
+ <h2>Contact US?</h2>
+ <p>If you have any questions regarding programs, facilities or have requests or suggestions to make, feel free to give us a call or email us.!</p>
+ </div>
+</div>
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;">This web page is a part of a demonstration of fluid web design made
+unicaf. Resize the browser window to see the content respond to the resizing.</div>
+</body>
+</html>

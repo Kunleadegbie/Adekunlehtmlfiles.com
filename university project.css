@@ -1,0 +1,161 @@
+/*=====================LAYOUT SECTION=======================*/
+body {
+background-color: gray;
+margin: 0px;
+font-family: verdana;
+font-size: 14px;
+/*===font-size: 15px;===*/
+}
+
+#header {
+background-color: olive;
+margin: 10px;
+height: 90px;
+font-family: verdana;
+font-size: 14px;
+border-radius: 5px;
+
+}
+
+#navspace {
+background-color: blue;
+margin: 10px;
+padding:10px;
+border-radius: 5px;
+text-align: center;
+}
+
+
+#navbar ul {
+background-color: black;
+margin: 10px;
+padding:10px;
+border-radius: 5px;
+list-style-type: none;
+text-align: center;
+}
+
+#navbar ul li {
+display: inline;
+
+}
+
+#navbar ul li a {
+text-decoration: none;
+font-family: Arial;
+background-color:  black;
+color: white;
+padding: 10px;
+
+}
+
+#navbar ul li a:hover {
+background-color: white;
+color: black;
+}
+
+
+
+.main {
+background-color: silver;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+padding: 20px;
+font-size: 90%;
+}
+
+
+#footer {
+background-color: olive;
+margin: 10px;
+height: 60px;
+clear: both;
+border-radius: 5px;
+color: lightgray;
+text-align: center;
+padding: 15px;
+font-size: 75%;
+}
+
+
+#footer ul {
+margin: 10px;
+padding:10px;
+border-radius: 5px;
+list-style-type: none;
+text-align: center;
+}
+
+#footer ul li {
+display: inline;
+
+}
+
+#footer ul li a {
+text-decoration: none;
+font-family: Arial;
+background-color: olive;
+color: white;
+padding: 10px;
+
+}
+
+#footer ul li a:hover {
+background-color: white;
+color: black;
+}
+
+/*=====================HEADING SECTION=======================*/
+
+img {
+display: block;
+float: left;
+margin: 2px;
+max-width: 100%;
+max-height: 100%;
+}
+
+h1 {
+color: red;
+font-size: 120%;
+text-align: center;
+}
+
+h2 {
+color: gold;
+font-size: 100%;
+}
+
+h3 {
+color: lightgray;
+font-size: 250%;
+text-align: center;
+font-family: century gothic;
+margin:0;
+
+position: relative;
+top: 50%;
+-webkit-transform: translateY(-50%);
+-ms-webkit-transform: translateY(-50%);
+transform: translateY(-50%);
+
+}
+
+
+.sideright {
+background-color: gray;
+margin-left: 10px;
+margin-right: 200px;
+margin-top: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+padding: 20px;
+font-size: 85%;
+float: right;
+clear: right;
+width: 400px;
+height: 200px;
+}

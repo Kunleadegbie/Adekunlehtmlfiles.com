@@ -1,0 +1,598 @@
+<!doctype html>
+
+<html>
+
+
+<script>
+function stickyMenu () {
+var sticky=document.getElementById('sticky');
+if (window.pageYOffset > 220) {
+sticky.classList.add('sticky');
+}
+else
+sticky.classList.remove('sticky');
+}
+}
+window.onscroll = function(){
+stickyyMenu();
+
+
+</script>
+<head>
+<!--META CHARSET-->
+<meta charset="UTF-8">
+
+<!--META VIEWPORT-->
+<meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+<!--META EDGE-->
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<!--TITLE-->
+<title>10 Easy Meditation Techniques </title>
+
+<!--META DESCRIPTION-->
+<meta name="description" content="The perfect meditation, motivation and relaxation guide for beginners">
+
+<!--META KEYWORDS-->
+<meta name="keywords" content="meditation, relaxation, stress relieve">
+
+<!--META AUTHOR-->
+<meta name="author" content="Kunle Adegbie">
+<link rel="shortcut icon" type="image/ico" href="./favicon.ico" />
+</head>
+
+
+<body>
+
+<style>
+body {
+margin: 0;
+font-family: system-ui;
+background:url("pretty.jpg");
+}
+
+img {
+display: block;
+float: left;
+margin: 2px;
+margin-top: 35px;
+margin-left: 10px;
+max-width: 150px;
+max-height: 150px;
+}
+
+.parallax, .parallax1{
+background-image:url("hd.jpg");
+height:max-contect;
+background-attachment:fixed;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+.page-title{
+background:rgba(0,0,0,0.5);
+text-align: center;
+color:gold;
+padding:50px;
+font-variant:small-caps;
+font-size:100px;
+font-family:fantasy;
+letter-spacing:20px;
+}
+
+.sticky{
+position:fixed;
+top:0;
+width:100%;
+}
+
+
+.menu{
+background:#184d47;
+text-align:center;
+color:white;
+}
+
+.nav{
+text-decoration:none;
+margin:0;
+padding:0;
+display:inline;
+color:white;
+}
+
+.nav li{
+color:white;
+font-size:17px;
+list-style:none;
+display:inline-block;
+padding: 25px 25px 26px 25px;
+}
+
+
+.nav li:hover{
+background:navy;
+transform:scale(1.1);
+}
+
+.a-links{
+text-decoration:none;
+color:white;
+}
+
+
+.search-box{
+border:1px solid white;
+border-radius:50px;
+background:white;
+width:max-content;
+display:inline-block;
+margin:8px;
+}
+
+.search-box:hover{
+box-shadow:0 0 10px 2px #5b8c5a;
+border:1px solid #5b8c5a;
+}
+
+.search-input{
+width:200px;
+border:none;
+font-size:16px;
+outline:none;
+background:transparent;
+margin:15px 0 0 10px;
+}
+
+i{
+font-size:20px;
+margin:0 10px 0;
+}
+
+button{
+background:transparent;
+border:none;
+outline:none;
+}
+
+.main {
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 50px;
+margin-bottom: 50px;
+border-radius: 5px;
+padding: 20px;
+font-size: 100%;
+}
+
+h1, h2 {
+text-align: center;
+color: maroon;
+font-weight:bold;
+font-size: 200%;
+}
+
+h3 {
+color: purple;
+font-size: 100%;
+text-align: left;
+}
+
+p1{
+text-align:center;
+}
+
+p{
+text-align:justify;
+}
+
+.container{
+margin: 50px 50px 50px 5%;
+width:90%;
+text-align:center;
+}
+
+.meditation-container{
+margin: 50px 50px 50px 5%;
+width:90%;
+text-align:center;
+}
+
+.categories, .items{
+background-color:white;
+width:max-content;
+margin:25px;
+border:1px solid #184d47;
+border-radius:0 0 50px 50ps;
+display:inline-block;
+}
+
+.categories, .items:hover{
+box-shadow:0 0 10px 3px #184d47;
+}
+
+.item-image{
+height:200px;
+width:200px;
+border-radius:0 0 50px 50px;
+padding:10px;
+}
+
+.image-title{
+text-align: center;
+padding:10px;
+font-weight:bold;
+}
+
+a{
+text-decoration:none;
+}
+
+.title{
+padding:50px;
+font-size:50px;
+font-weight:bold;
+letter-spacing:10px;
+color:yellow;
+background:rgba(0, 0, 0, 0.5);
+}
+
+.deal{
+padding:50px;
+font-size:20px;
+font-weight:bold;
+color:white;
+display:inline-block;
+margin:20px;
+max-width:20%;
+background:linear-gradient(120deg,#16817a 20%,#cee397 50%,#16717a 80%);
+}
+
+.coupon-btn{
+border:1px solid white;
+color:white;
+margin:10px;
+padding:10px;
+border-radius:20px;
+}
+
+.coupon-btn:hover{
+box-shadow:0 0 10px 5px white inset;
+}
+
+.images{
+display:inline-block;
+}
+
+
+.item-image-size{
+height:200px;
+width:200px;
+padding:5px;
+}
+
+.description{
+margin:20px;
+min-height:100px;
+}
+
+.item-select{
+margin:10px 0 0 0;
+}
+
+.buynow-btn{
+border:1px solid #184d47;
+background:#184d47;
+padding:5px 15px;
+border-radius:20px;
+font-weight:bold;
+margin-top:10px;
+color:white;
+}
+
+.buynow-btn:hover{
+border:1px solid #5b8c5a;
+box-shadow:0 0 10px #5b8c5a inset;
+}
+
+.parallax1{
+background-image:url("rainer.jpg");
+}
+
+.footer{
+background:rgba(0, 0, 0, 0.5);
+text-align:center;
+padding:20px;
+}
+
+.quick-links{
+color:orange;
+font-size:20px;
+font-weight:bold;
+display:inline-block;
+min-width:30%;
+}
+
+.quick-links ul{
+padding:0;
+}
+
+.quick-links li{
+list-style:none;
+padding:10px;
+font-weight:300;
+}
+
+.a-links:hover{
+color:#fd5e53;
+}
+
+.copyrights{
+font-size:16px;
+font-family:'Roboto', sans-serif;
+text-align:center;
+margin:15px;
+}
+
+
+Theform {
+width: 300px;
+}
+
+input {
+width:100%;
+}
+
+button[type="submit"]{
+width: 10%;
+border: 1px solid green;
+outline: none;
+display:inline-block;
+padding: 5px;
+font-size: 18px;
+border-radius: 8px;
+font-family:verdana, arial, helvecita, sans-serif;
+color: black;
+text-align: center;
+cursor: pointer;
+margin-top: 15px;
+transition: .3s ease background-color;
+}
+
+button[type="submit"]:hover{
+transform:scale(1.1);
+backgound-color: green;
+}
+
+.btn {
+width: 80px;
+}
+
+#Theform {
+color: black;
+display: table;
+padding: 15px;
+background-image:url("stunning.jpg");
+border-color: black;
+border-width: 1px;
+border-style: solid;
+font-weight:bold;
+margin: 50px 50px 50px 5%;
+width:90%;
+}
+
+.row label {
+display: table-cell;
+padding: 2px;
+text-align:right;
+}
+
+'row input {
+display: table-cell;
+padding: 2px;
+}
+
+</style>
+
+<div class="parallax">
+<div class="page-title">Meditation Tech Centre</div>
+</div>
+
+
+<div class="menu" id="sticky">
+<nav>
+<ul class="nav">
+<li><a href="SEO HOME PAGE.html" class="nav"> Home</a></li>
+<li><a href="SEO GALLERY.html" class="nav"> Gallery</a></li>
+<li><a href="SEO ABOUT US.html" class="nav"> About Us</a></li>
+</ul>
+
+
+<div class="search-box">
+<form>
+<input type="text" placeholder="search..." name="search" 
+class="search-input">
+<button type="submit"><i class="fa fa-search"></i></button>
+
+</form>
+</div>
+</div>
+
+<!--Home Page Begins-->
+
+<div class="meditation-container" id="meditation">
+<div class="parallax">
+<div class="title">RELAXATION & STRESS RELIEVE</div>
+</div>
+
+<div class="container">
+<a href="#meditation">
+<div class="categories">
+<img src="relax1.jpg" class="item-image"/>
+<div class="image-title">stress relieve mood</div>
+</div>
+</a>
+
+<a href="#meditation">
+<div class="categories">
+<img src="relax2.jpg" class="item-image"/>
+<div class="image-title">relaxation mood</div>
+</div>
+</a>
+
+<a href="#meditation">
+<div class="categories">
+<img src="relax3.jpg" class="item-image"/>
+<div class="image-title">relaxation mood</div>
+</div>
+</a>
+
+<a href="#meditation">
+<div class="categories">
+<img src="relax4.jpg" class="item-image"/>
+<div class="image-title">relaxation mood</div>
+</div>
+</a>
+
+<a href="#meditation">
+<div class="categories">
+<img src="relax5.jpg" class="item-image"/>
+<div class="image-title">relaxation mood</div>
+</div>
+</a>
+
+<a href="#meditation">
+<div class="categories">
+<img src="relax6.jpg" class="item-image"/>
+<div class="image-title">relaxation mood</div>
+</div>
+</a>
+
+<a href="#meditation">
+<div class="categories">
+<img src="relax7.jpg" class="item-image"/>
+<div class="image-title">stress relieve mood</div>
+</div>
+</a>
+
+<a href="#meditation">
+<div class="categories">
+<img src="relax8.jpg" class="item-image"/>
+<div class="image-title">relaxation mood</div>
+</div>
+</a>
+
+<a href="#meditation">
+<div class="categories">
+<img src="relax9.jpg" class="item-image"/>
+<div class="image-title">relaxation mood</div>
+</div>
+</a>
+
+<a href="#meditation">
+<div class="categories">
+<img src="relax10.jpg" class="item-image"/>
+<div class="image-title">relaxation mood</div>
+</div>
+</a>
+
+
+<a href="#meditation">
+<div class="categories">
+<img src="relax11.jpg" class="item-image"/>
+<div class="image-title">relaxation mood</div>
+</div>
+</a>
+
+<a href="#meditation">
+<div class="categories">
+<img src="relax12.jpg" class="item-image"/>
+<div class="image-title">relaxation mood</div>
+</div>
+</a>
+
+<a href="#meditation">
+<div class="categories">
+<img src="relax13.jpg" class="item-image"/>
+<div class="image-title">relaxation mood</div>
+</div>
+</a>
+
+<a href="#meditation">
+<div class="categories">
+<img src="relax14.jpg" class="item-image"/>
+<div class="image-title">relaxation mood</div>
+</div>
+</a>
+
+<a href="#meditation">
+<div class="categories">
+<img src="relax15.jpg" class="item-image"/>
+<div class="image-title">stress relieve mood</div>
+</div>
+</a>
+
+<!--Home Page Begins-->
+
+<!--Main Text Starts Here-->
+
+<div class="main">
+
+<h1> Stress Relieve & Relaxation Measures </h1>
+
+<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a scelerisque nulla, nec dignissim orci. Morbi ultrices tellus quis luctus consectetur. Vestibulum a ante tincidunt, varius tortor nec, blandit turpis. Nunc eu lacus tincidunt elit blandit dignissim. Sed aliquet eros erat, eu posuere elit dapibus sit amet. Vivamus dictum vel dolor at luctus. Mauris rutrum, nisl id malesuada porttitor, nibh nibh varius orci, vel blandit dui magna aliquam nibh. </p> 
+
+<p>Quisque faucibus sagittis lacus vel elementum. Quisque sodales imperdiet blandit. Etiam vel lacus id nunc pretium tempus. Morbi vestibulum, purus eget efficitur rutrum, erat augue dictum ligula, at fringilla dolor arcu a velit. Suspendisse congue tempor dui id bibendum. Suspendisse ut nisl nibh. Mauris accumsan non diam eu vehicula. Donec fermentum volutpat ex eu malesuada.
+
+</p>
+<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+</p>
+
+<!--Main Text Ends Here-->
+
+<!--footer starts here-->
+
+<div class="parallax1">
+<div class="footer">
+<div class="quick-links">
+<div>Location</div>
+<ul>
+<li><a href="" class="a-links">No. 57, Akerele Street<a/></li>
+<li><a href="" class="a-links">Off Masha Bus Stop<a/></li>
+<li><a href="" class="a-links">Surulere, Lagos<a/></li>
+</ul>
+</div>
+
+<div class="quick-links">
+<div>Careers</div>
+<ul>
+<li><a href="" class="a-links">Councellors<a/></li>
+<li><a href="" class="a-links">Physical Health Trainers<a/></li>
+<li><a href="" class="a-links">Social Health Workers<a/></li>
+</ul>
+</div>
+
+<div class="quick-links">
+<div>Quick Links</div>
+<ul>
+<li><a href="" class="a-links">Contact Us<a/></li>
+<li><a href="" class="a-links">FAQ<a/></li>
+<li><a href="" class="a-links">Help<a/></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="copyrights">
+<i class="far fa-copyright fa-1x"></i> &copy May 2021 By Adekunle Adegbie
+
+</div>
+
+
+<!--footer ends here-->
+</body>
+
+
+</html>
